@@ -7,3 +7,4 @@ When you get your hands on the updates version that includes the trigger system
 Set up the trigger in general events  
 Need to give the event a particular ID  
 Then tie it into the the tester and test to see if it runs  
+Got until Saturday meeting to get the workable version of the environment  
