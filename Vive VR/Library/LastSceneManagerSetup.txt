@@ -1,5 +1,5 @@
 sceneSetups:
-- path: Assets/Scenes/SampleScene.unity
+- path: Assets/Art/Asset store stuff/Assets/TirgamesAssets/SchoolScene/Scenes/SchoolSceneAbandoned.unity
   isLoaded: 1
   isActive: 1
   isSubScene: 0

@@ -5,7 +5,7 @@
       "app_key": "application.generated.unity.vivevr.exe",
       "launch_type": "url",
       "url": "steam://launch/",
-      "action_manifest_path": "C:\\Users\\jeanc\\OneDrive\\Documents\\GitHub\\Vive VR\\actions.json",
+      "action_manifest_path": "C:\\Users\\jeanc\\OneDrive\\Documents\\GitHub\\gamedev-vr-edition\\Vive VR\\actions.json",
       "strings": {
         "en_us": {
           "name": "Vive VR [Testing]"
