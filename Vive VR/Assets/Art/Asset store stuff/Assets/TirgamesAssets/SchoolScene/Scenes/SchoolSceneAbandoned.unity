@@ -7911,12 +7911,12 @@ PrefabInstance:
     - target: {fileID: 9160587999852367052, guid: 877341b2be15a6246b2437d112bc0dd4,
         type: 3}
       propertyPath: m_LocalScale.z
-      value: 13.738628
+      value: 25.764051
       objectReference: {fileID: 0}
     - target: {fileID: 9160587999852367052, guid: 877341b2be15a6246b2437d112bc0dd4,
         type: 3}
       propertyPath: m_LocalScale.x
-      value: 19.305471
+      value: 27.80374
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 877341b2be15a6246b2437d112bc0dd4, type: 3}
@@ -68251,11 +68251,15 @@ PrefabInstance:
       propertyPath: m_LocalScale.z
       value: 1
       objectReference: {fileID: 0}
-    - target: {fileID: 162032, guid: 2ebc8e06f884c75458ee4474267fdde6, type: 3}
+    - target: {fileID: 117964, guid: 2ebc8e06f884c75458ee4474267fdde6, type: 3}
       propertyPath: m_StaticEditorFlags
       value: 4294967295
       objectReference: {fileID: 0}
-    - target: {fileID: 117964, guid: 2ebc8e06f884c75458ee4474267fdde6, type: 3}
+    - target: {fileID: 2322004, guid: 2ebc8e06f884c75458ee4474267fdde6, type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: 0bdf615183bb1934a8f974d8d74bdcf4, type: 2}
+    - target: {fileID: 162032, guid: 2ebc8e06f884c75458ee4474267fdde6, type: 3}
       propertyPath: m_StaticEditorFlags
       value: 4294967295
       objectReference: {fileID: 0}
@@ -68264,10 +68268,6 @@ PrefabInstance:
       value: 4294967295
       objectReference: {fileID: 0}
     - target: {fileID: 2306866, guid: 2ebc8e06f884c75458ee4474267fdde6, type: 3}
-      propertyPath: m_Materials.Array.data[0]
-      value: 
-      objectReference: {fileID: 2100000, guid: 0bdf615183bb1934a8f974d8d74bdcf4, type: 2}
-    - target: {fileID: 2322004, guid: 2ebc8e06f884c75458ee4474267fdde6, type: 3}
       propertyPath: m_Materials.Array.data[0]
       value: 
       objectReference: {fileID: 2100000, guid: 0bdf615183bb1934a8f974d8d74bdcf4, type: 2}

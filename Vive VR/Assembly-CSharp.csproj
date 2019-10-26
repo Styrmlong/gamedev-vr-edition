@@ -55,6 +55,7 @@
   <ItemGroup>
      <Compile Include="Assets\Art\Asset store stuff\Assets\TirgamesAssets\SchoolScene\Scenes\SchoolSceneAssets\Menu\Scripts\MenuButton.cs" />
      <Compile Include="Assets\Art\Asset store stuff\Assets\TirgamesAssets\SchoolScene\Scenes\SchoolSceneAssets\Menu\Scripts\SceneExit.cs" />
+     <Compile Include="Assets\Scripts\TouchPadMovement.cs" />
      <None Include="Assets\Art\Asset store stuff\Assets\TirgamesAssets\SchoolScene\ReadMeSchoolScene.txt" />
  <Reference Include="Unity.Timeline.Editor">
  <HintPath>C:/Users/jeanc/OneDrive/Documents/GitHub/gamedev-vr-edition/Vive VR/Library/ScriptAssemblies/Unity.Timeline.Editor.dll</HintPath>
