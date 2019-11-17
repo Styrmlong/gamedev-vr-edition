@@ -9,6 +9,8 @@ public class VR_Controller : MonoBehaviour
     public float m_Sensitivity = 0.1f;
     public float m_MaxSpeed = 5.0f;
 
+    public float m_Gravity = 30.0f;
+
     public SteamVR_Action_Boolean m_MovePress = null;
     public SteamVR_Action_Vector2 m_MoveValue = null;
 
@@ -81,13 +83,16 @@ public class VR_Controller : MonoBehaviour
             //Orientation
             Debug.Log("Orientation: " + orientation + " Speed: " + m_Speed + " Vector3: " + Vector3.forward);
 
-            movement += orientation * (m_Speed * Vector3.forward) * Time.deltaTime;
+            movement += orientation * (m_Speed * Vector3.forward);
             Debug.Log("Movement variable: " + movement);
 
         }
 
+        //Gravity
+        movement.y -= m_Gravity * Time.deltaTime;
+
         //Apply
-        m_CharacterController.Move(movement);
+        m_CharacterController.Move(movement * Time.deltaTime);
     }
 
     private void HandleHeight()
