@@ -9,11 +9,21 @@ public class EventTest : MonoBehaviour
     public int id = 69;
     public int id2 = 420;
 
+    public Transform girl;
+    public Transform ball;
+
+    private AudioSource audio;
+
+
+
     void Start()
     {
         EventSystem.eventController.onTestEventTrigger += TestEvent;
         EventSystem.eventController.onTestEventTrigger += TestMultiEvent;
         EventSystem.eventController.onTestEventTrigger += TestMultiEventSecond;
+
+        audio = GetComponent<AudioSource>();
+
     }
 
     private void TestEvent(int id)
@@ -21,6 +31,9 @@ public class EventTest : MonoBehaviour
         if (id == this.id)
         {
             Debug.Log("Successful Test ID: " + id);
+            girl.position = ball.position;
+            audio.Play();
+
         }
     }
 
