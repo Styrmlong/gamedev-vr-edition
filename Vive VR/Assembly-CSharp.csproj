@@ -55,9 +55,9 @@
   <ItemGroup>
      <Compile Include="Assets\Art\Asset store stuff\Assets\TirgamesAssets\SchoolScene\Scenes\SchoolSceneAssets\Menu\Scripts\MenuButton.cs" />
      <Compile Include="Assets\Art\Asset store stuff\Assets\TirgamesAssets\SchoolScene\Scenes\SchoolSceneAssets\Menu\Scripts\SceneExit.cs" />
-     <Compile Include="Assets\EventSystem.cs" />
-     <Compile Include="Assets\EventTest.cs" />
      <Compile Include="Assets\Scripts\Enemy.cs" />
+     <Compile Include="Assets\Scripts\EventSystem.cs" />
+     <Compile Include="Assets\Scripts\EventTest.cs" />
      <Compile Include="Assets\Scripts\Hand.cs" />
      <Compile Include="Assets\Scripts\Motor.cs" />
      <Compile Include="Assets\Scripts\Move.cs" />
