@@ -37,12 +37,14 @@ public class EventTest : MonoBehaviour
         }
     }
 
-    private void TestMultiEvent(int id) 
+    private void TestMultiEvent(int id)
     {
-        if (id == id2) 
+        if (id == id2)
         {
             Debug.Log("Successful Test!!!");
             Debug.Log(id2 + "!!!!");
+            girl.position = ball.position;
+            audio.Play();
         }
     }
 

@@ -61,6 +61,7 @@
      <Compile Include="Assets\Scripts\Hand.cs" />
      <Compile Include="Assets\Scripts\Motor.cs" />
      <Compile Include="Assets\Scripts\Move.cs" />
+     <Compile Include="Assets\Scripts\SansEvent.cs" />
      <Compile Include="Assets\Scripts\TestTrigger.cs" />
      <Compile Include="Assets\Scripts\VR_Controller.cs" />
      <None Include="Assets\TextMesh Pro\Resources\Shaders\TMP_SDF-Surface-Mobile.shader" />
