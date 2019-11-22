@@ -55,15 +55,24 @@
   <ItemGroup>
      <Compile Include="Assets\Art\Asset store stuff\Assets\TirgamesAssets\SchoolScene\Scenes\SchoolSceneAssets\Menu\Scripts\MenuButton.cs" />
      <Compile Include="Assets\Art\Asset store stuff\Assets\TirgamesAssets\SchoolScene\Scenes\SchoolSceneAssets\Menu\Scripts\SceneExit.cs" />
+     <Compile Include="Assets\EnemyPathFinder.cs" />
+     <Compile Include="Assets\FieldOfView.cs" />
+     <Compile Include="Assets\FieldOfViewEditor.cs" />
+     <Compile Include="Assets\Hunting.cs" />
+     <Compile Include="Assets\Patrol.cs" />
      <Compile Include="Assets\Scripts\Enemy.cs" />
      <Compile Include="Assets\Scripts\EventSystem.cs" />
      <Compile Include="Assets\Scripts\EventTest.cs" />
      <Compile Include="Assets\Scripts\Hand.cs" />
+     <Compile Include="Assets\Scripts\LaughEvent.cs" />
      <Compile Include="Assets\Scripts\Motor.cs" />
      <Compile Include="Assets\Scripts\Move.cs" />
      <Compile Include="Assets\Scripts\SansEvent.cs" />
+     <Compile Include="Assets\Scripts\StairsTrigger.cs" />
      <Compile Include="Assets\Scripts\TestTrigger.cs" />
      <Compile Include="Assets\Scripts\VR_Controller.cs" />
+     <Compile Include="Assets\TeleportObject 1.cs" />
+     <Compile Include="Assets\Waypoint.cs" />
      <None Include="Assets\TextMesh Pro\Resources\Shaders\TMP_SDF-Surface-Mobile.shader" />
      <None Include="Assets\TextMesh Pro\Resources\LineBreaking Leading Characters.txt" />
      <None Include="Assets\TextMesh Pro\Resources\Shaders\TMPro_Properties.cginc" />
@@ -656,6 +665,14 @@
     <ProjectReference Include="SteamVR_Windows_EditorHelper.csproj">
       <Project>{5879A42D-DC77-8C4F-8C0F-C0C177B9F771}</Project>
       <Name>SteamVR_Windows_EditorHelper</Name>
+    </ProjectReference>
+    <ProjectReference Include="NavMeshComponentsEditor.csproj">
+      <Project>{348CCF5B-0B1D-E91D-330A-F2DB9C4EA1E3}</Project>
+      <Name>NavMeshComponentsEditor</Name>
+    </ProjectReference>
+    <ProjectReference Include="NavMeshComponents.csproj">
+      <Project>{B63A030D-F342-6169-BAAA-BE8A85E9C665}</Project>
+      <Name>NavMeshComponents</Name>
     </ProjectReference>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
