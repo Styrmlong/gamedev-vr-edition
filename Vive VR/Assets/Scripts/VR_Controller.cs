@@ -9,7 +9,7 @@ public class VR_Controller : MonoBehaviour
     public float m_Sensitivity = 0.1f;
     public float m_MaxSpeed = 5.0f;
 
-    public float m_Gravity = 30.0f;
+    public float m_Gravity = 200.0f;
 
     public SteamVR_Action_Boolean m_MovePress = null;
     public SteamVR_Action_Vector2 m_MoveValue = null;
@@ -19,6 +19,7 @@ public class VR_Controller : MonoBehaviour
     private CharacterController m_CharacterController = null;
     public Transform m_CameraRig = null;
     public Transform m_Head = null;
+    public Transform m_Flashlight = null;
 
     private void Awake()
     {
@@ -53,6 +54,9 @@ public class VR_Controller : MonoBehaviour
         //Restore
         m_CameraRig.position = oldPosition;
         m_CameraRig.rotation = oldRotation;
+
+        //m_Flashlight.position = oldPosition;
+        m_Flashlight.rotation = m_Head.rotation;
 
 
     }
